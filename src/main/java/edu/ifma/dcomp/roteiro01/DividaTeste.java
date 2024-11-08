@@ -12,9 +12,5 @@ public class DividaTeste {
         divida.setValorPago(3000.00);
 
         System.out.println(divida );
-
-
-
-
     }
 }

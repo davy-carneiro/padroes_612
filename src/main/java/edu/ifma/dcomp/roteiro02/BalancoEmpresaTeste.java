@@ -1,4 +1,4 @@
-package edu.ifma.dcomp.roteiro01;
+package edu.ifma.dcomp.roteiro02;
 
 import java.time.LocalDate;
 
@@ -8,7 +8,7 @@ public class BalancoEmpresaTeste {
         BalancoEmpresa balancoEmpresa = new BalancoEmpresa();
 
         balancoEmpresa.registraDivida("26.462.376/0001-01", "Banco XPTO", 1000);
-
+        
         balancoEmpresa.pagaDivida("26.462.376/0001-01", 300, "Empresa xyz", LocalDate.now());
         balancoEmpresa.pagaDivida("26.462.376/0001-01", 200, "Empresa xyz", LocalDate.now());
 
